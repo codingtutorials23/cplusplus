@@ -22,3 +22,6 @@ enum xml_parse_attribute_t {
 };
 xml_parse_attribute_t& operator|=(xml_parse_attribute_t& r, xml_parse_attribute_t x)
 {r = xml_parse_attribute_t(r | x); return r; }
+bool is_name(xml_parse_attribute_t& a){
+    code_point_t c;
+}
